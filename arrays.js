@@ -15,7 +15,7 @@ function addElementToEndOfArray(x,one){
   return [...x,one];
 }
 function destructivelyAddElementToEndOfArray(x,one){
-  return x.push("1");
+  return x.push("foo");
   
 }
 var n = [1, 2, 3];
