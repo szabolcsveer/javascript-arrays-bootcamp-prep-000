@@ -15,7 +15,7 @@ function addElementToEndOfArray(x,one){
   return [...x,one];
 }
 function destructivelyAddElementToEndOfArray(x,one){
-  return chocolateBars.push(x);
+  return x.push("1");
   
 }
 var n = [1, 2, 3];
