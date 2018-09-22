@@ -29,7 +29,7 @@ function removeElementFromBeginningOfArray(x){
   return x.slice(one);
 }
 function destructivelyRemoveElementFromEndOfArray(n){
-  return n.pop(1);
+  return n.pop();
   }
 function removeElementFromEndOfArray(n){
   return n.slice(0, n.length -1);
